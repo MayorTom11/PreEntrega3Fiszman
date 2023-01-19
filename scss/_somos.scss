@@ -1,0 +1,10 @@
+.fotos-quienes{
+    @include flex(auto, center, center);
+    margin: 3rem;
+}
+.quienes_img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 0 3rem;
+}

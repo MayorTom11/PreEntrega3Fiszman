@@ -1,0 +1,26 @@
+.tipos-productos{
+    margin: .8rem 0;
+}
+#nav-rojo{
+    text-align: center;
+    background-color: $navBgColor;
+    ul{
+        @include flex(auto, center, center);
+        li{
+            padding: 10px 20px;
+        }
+    }
+}
+.grid{
+    width: 100%;
+    display: grid;
+    margin-bottom: 1.5rem;
+}
+.productos{
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(2, 50%);
+}
+.p_grid{
+    align-items: center;
+    justify-content: center;
+}

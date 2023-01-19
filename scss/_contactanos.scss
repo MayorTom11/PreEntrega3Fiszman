@@ -1,0 +1,20 @@
+.ser{
+    margin: 1.5rem 0;
+}
+.texto_ser{
+    @include flex(auto, center, flex-end);
+    margin: 2rem;
+    font-size: 1.4rem;
+}
+.mb-3{
+    margin: 0 2rem;
+}
+.btn-primary{
+    margin: 1.2rem 0 2rem 2rem;
+}
+#nombre, #instagram, #sobre_vos{
+    width: 30vw;
+}
+#sobre_vos{
+    height: 15vh;
+}

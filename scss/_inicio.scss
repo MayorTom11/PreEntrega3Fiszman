@@ -1,0 +1,38 @@
+.section_productos{
+    @include flex(auto, space-between, center);
+    padding: 0 2.5rem;
+    margin: 2.5rem 0;
+}
+.div_productos{
+    @include flex(column, auto, center);
+    margin: 10px 50px;
+    padding: 20px;
+    border: 1px solid $borderColor;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: 1.2rem 1.2rem 1.8rem rgba(0, 0, 0, 0.02);
+    transition: .2s ease;
+    &:hover{
+        box-shadow: 1.2rem 1.2rem 1.8rem rgba(0, 0, 0, 0.08);
+    }
+}
+.productos_img{
+    width: 250px;
+    height: 250px;
+    transition: .2s ease;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.p_producto{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.somos{
+    @include flex(auto, center, center);
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0 5rem;
+    margin-bottom: 1.5rem;
+}
